@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidencia 2</title>
+</head>
+<body>
+    <main>
+        <h1>Informe de entregables</h1>
+        <h2>Especificacion de requisitos funcionales(rf)</h2>
+        <img src="c:\Users\David\Desktop\web\images\rf.jpg" alt="tabla rf">
+        <h2>Requisitos no funcionales (RNF)</h2>
+        <img src="c:\Users\David\Desktop\web\images\rnf.jpg" alt="tabla rnf">
+        <h2>Diseño del software Dreamhotel</h2>
+        <p>El diseño se centrará en la usabilidad y la experiencia del usuario. Se desarrollará una interfaz moderna y responsiva que facilite la navegación y el uso de las funcionalidades del sistema.</p>
+        <h2>A continuacion se muestran algunos diagramas </h2>
+        <img src="c:\Users\David\Desktop\web\images\diagrama_clases.jpg" alt="clases">
+        <img src="c:\Users\David\Desktop\web\images\diagrama_actividades.jpg" alt="actividades">
+        <p>En el software Dreamhotel se encontrara una interfaz intuitiva y sencilla de usar para todos los usuarios y actores de este aplicativo, ya que contara con las siguientes caracteristicas:•	Gestión de reservas: Implementada mediante un sistema de calendario y formularios de entrada.
+            •	Gestión de habitaciones: Sistema de actualización en tiempo real sobre la disponibilidad.
+            •	Servicios adicionales: Módulo para solicitar servicios como lavandería y restaurante.
+            •	Procesar pagos: Integración con pasarelas de pago.
+            •	Comunicación con clientes: Sistema de mensajería y notificaciones.
+            •	Administrar usuarios: permite modificar eliminar y agregar usuarios y roles.
+            •	Reportes: permite descargar reportes de funcionamiento del hotel para llevar un control detallado.
+            •	Gestionar personal: permite al gerente cambiar roles de usuario y hacer modificaciones.
+            •	Seguridad: mantiene datos importantes de los clientes seguros y confidenciales.
+            •	Inventario: notifica cuando el inventario alcanza niveles críticos.
+            •	Recuperación de datos: permite recuperar datos eliminados.
+            •	Opiniones: permite que los clientes hagan comentarios en el software.
+            •	Bilingüe: acepta varios idiomas.
+            •	Integración con redes sociales: permite registrarse e iniciar sesión por medio de una red social.
+            •	Promociones: notifica cuando hay promociones en el hotel.
+            </p>
+            <h2>Registro de trazabilidad</h2>
+            <h3>en este segmento de esta pagina web se mostraran las tablas con los elementos que forman parte de la trazabilidad</h3>
+            <img src="c:\Users\David\Desktop\web\images\tzb1.jpg" alt="">
+            <img src="c:\Users\David\Desktop\web\images\tzb2.jpg" alt="">
+            <img src="c:\Users\David\Desktop\web\images\tzb3.jpg" alt="">
+            <h2>Captura de requisitos</h2>
+            <p>este fue el primer paso en la planeacion de este desarrollo de software , el instrumento utilizado para hacer la recoleccion de informacion fue una entrevista estructurada con la que se recolecto informacion primordial de una fuente primaria para este proceso, a continuacion se encuentra disponible dicha entrevista en texto donde p es el programador y g es el gerente del hotel asi:</p>
+            <p>P: Buenos días, señor Rodríguez. Gracias por recibirme. Como sabe, el objetivo de esta reunión es definir los requisitos funcionales del sistema que vamos a desarrollar para DreamHotel. Me gustaría que me cuente cuáles son los procesos principales que les gustaría automatizar o mejorar.
+
+                G: Buenos días. Sí, claro, estamos buscando un sistema que nos ayude a gestionar las reservas, el registro de clientes, la facturación, y el control de las habitaciones disponibles.
+                
+                P: Excelente, empecemos con las reservas. ¿Cómo funciona el proceso de reservas actualmente?
+                
+                G: Bueno, las reservas las tomamos por teléfono o por correo electrónico. Nos gustaría que los clientes pudieran hacerlas directamente desde una página web. El sistema debería permitir que los clientes elijan las fechas de estadía, el tipo de habitación, y que reciban una confirmación automática.
+                
+                P: Entendido. Entonces el sistema tendría un módulo para reservas online, donde los clientes seleccionan fecha de entrada y salida, tipo de habitación, y reciben una confirmación. ¿Le gustaría que el cliente pudiera realizar el pago de la reserva en línea también?
+                
+                G: Sí, eso sería muy conveniente. Queremos integrar pagos con tarjeta de crédito, PayPal, y posiblemente alguna pasarela de pagos local.
+                
+                P: Perfecto. Entonces, agregaríamos un módulo de pago en línea con opciones de tarjeta de crédito, PayPal y alguna plataforma local. ¿El sistema debería manejar la disponibilidad de habitaciones en tiempo real para evitar reservas duplicadas?
+                
+                G: Exactamente. El sistema debe bloquear automáticamente las habitaciones que ya están reservadas, así como gestionar las cancelaciones.
+                
+                P: Muy bien. Ahora hablemos sobre el check-in y check-out de los huéspedes. ¿Cómo les gustaría que este proceso fuera gestionado?
+                
+                G: Nos gustaría que el sistema permita hacer check-in digital, es decir, que el cliente complete sus datos antes de llegar, para que en la recepción simplemente se confirme su identidad. Lo mismo con el check-out, que puedan hacerlo desde su dispositivo móvil, y que el sistema calcule automáticamente cualquier cargo extra.
+                
+                P: Entonces, implementaríamos un sistema para el check-in anticipado en línea y un proceso de check-out automático que calcule los cargos adicionales como consumos del minibar o servicios extra.
+                
+                G: Exacto, eso nos ahorraría mucho tiempo.
+                
+                P: Perfecto. ¿Cómo quieren manejar la facturación? ¿Debería el sistema generar una factura automáticamente al realizar el check-out?
+                
+                G: Sí, la factura debería generarse automáticamente, y debe incluir todos los cargos, como la estadía, los servicios adicionales y cualquier otro consumo durante la estancia. Además, nos gustaría que la factura pueda enviarse por correo electrónico al cliente.
+                
+                P: Entonces, añadiremos un sistema de facturación automática con envío de la factura por correo electrónico al finalizar el check-out. ¿Hay algún sistema contable o de facturación que ya utilicen y que debamos integrar?
+                
+                G: Actualmente usamos un sistema contable externo, pero si el sistema pudiera generar reportes de ingresos y egresos diarios o mensuales, sería excelente.
+                
+                P: Perfecto, entonces agregamos un módulo de reportes financieros para que puedan ver los ingresos y egresos. También lo relacionamos con las facturas generadas, ¿verdad?
+                
+                G: Correcto. También quisiera saber si el sistema podría manejar el inventario de habitaciones. A veces las habitaciones están fuera de servicio por mantenimiento, y nos gustaría que el sistema las marcara como no disponibles.
+                
+                P: Por supuesto, implementamos un módulo de gestión de inventario de habitaciones, donde puedan marcar las habitaciones fuera de servicio por mantenimiento u otras razones.
+                
+                G: Genial, eso nos ayudará a organizarnos mejor.
+                
+                P: Ahora, sobre la gestión de usuarios. ¿Quiénes tendrían acceso al sistema y qué tipos de usuarios habría?
+                
+                G: Necesitaríamos distintos roles. Los recepcionistas deberían poder gestionar reservas, check-ins y check-outs. El gerente necesitaría acceso a todo, incluyendo reportes financieros y administración de usuarios. Y tal vez un rol de mantenimiento, que solo pueda ver las habitaciones que están fuera de servicio.
+                
+                P: Perfecto. Entonces definimos tres tipos de usuarios: recepcionistas, gerentes y personal de mantenimiento, cada uno con distintos niveles de acceso al sistema.
+                
+                G: Así es. Algo más que me gustaría es tener un módulo de opiniones y calificaciones para que los clientes puedan dejar comentarios sobre su estadía. Podría ser útil para medir la satisfacción del cliente.
+                
+                P: Claro, podemos incluir un sistema de calificación y comentarios donde los clientes, después de su estadía, puedan dejar una reseña o calificar el servicio.
+                
+                G: Me parece muy bien.
+                
+                P: En resumen, los módulos que necesitaríamos serían:
+                
+                Reservas en línea con pago digital.
+                Gestión de disponibilidad de habitaciones en tiempo real.
+                Check-in y check-out automáticos.
+                Facturación automática con envío por correo electrónico.
+                Reportes financieros.
+                Gestión de inventario de habitaciones.
+                Módulo de usuarios con diferentes roles.
+                Sistema de calificaciones y comentarios.
+                ¿Hay algo más que le gustaría añadir o modificar?
+                
+                G: Creo que eso cubre todo por ahora. Si surge algo más, se lo haré saber.
+                
+                P: Excelente, comenzaremos con la documentación de estos requisitos y lo mantendré informado sobre el progreso. Gracias por su tiempo.
+                
+                G: Gracias a usted. Estoy emocionado por ver el resultado.</p>
+
+
+
+
+
+
+    </main>
+        
+        
+        
+        
+
+
+
+
+
+
+    
+    
+</body>
+</html>
